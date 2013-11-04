@@ -180,8 +180,7 @@ int MPlanner::ComputeHeuristic(CMDPSTATE* MDPstate, MSearchStateSpace_t* pSearch
 		if (i == 0) 
 		   return environment_->GetGoalHeuristic(MDPstate->StateID);
 		else 
-		   //return environment_->GetGoalHeuristicNew(MDPstate->StateID, x, y); //Venkat: Please change this interface as suitable
-		   return 2*environment_->GetGoalHeuristic(MDPstate->StateID);
+		   return environment_->GetGoalHeuristic(MDPstate->StateID, i); //Venkat
 
 	}
 	else
@@ -189,7 +188,7 @@ int MPlanner::ComputeHeuristic(CMDPSTATE* MDPstate, MSearchStateSpace_t* pSearch
 		if (i == 0) 
 			return environment_->GetStartHeuristic(MDPstate->StateID);
 		else 
-			return 2*environment_->GetStartHeuristic(MDPstate->StateID); //Venkat: This is just for testing
+			return environment_->GetStartHeuristic(MDPstate->StateID, i); //Venkat
 	}
 }
 

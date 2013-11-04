@@ -84,6 +84,23 @@ public:
 	/** \brief heuristic estimate from start state to state with stateID
 	*/
 	virtual int  GetStartHeuristic(int stateID) = 0;
+  
+  
+	/** \brief heuristic estimate from state FromStateID to state ToStateID (MPlanner)
+	*/
+	virtual int  GetFromToHeuristic(int FromStateID, int ToStateID, int i) 
+  {
+  }
+	/** \brief heuristic estimate from state with stateID to goal state (MPlanner)
+	*/
+	virtual int  GetGoalHeuristic(int stateID, int i) 
+  {
+  }
+	/** \brief heuristic estimate from start state to state with stateID (MPlanner)
+	*/
+	virtual int  GetStartHeuristic(int stateID, int i) 
+  {
+  }
 
 	/** \brief depending on the search used, it may call GetSuccs function (for forward search) or GetPreds function (for backward search)
 	or both (for incremental search). At least one of this functions should be implemented (otherwise, there will be no search to run)
