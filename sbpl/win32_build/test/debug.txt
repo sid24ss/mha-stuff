@@ -1,0 +1,5 @@
+new search call (call number=0)
+reinitializing search state-space (new call number=1 search iter=0)
+eps=1000000000.000000 expands=29982 g(searchgoal)=1000000000 time=21.913
+state 1: h=0 g=1000000000 v=1000000000 iterc=0 callnuma=1 expands=0 heapind=0 inconslist=0
+StateID: 1 (192, 140, 12)

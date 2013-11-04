@@ -1,0 +1,79 @@
+[rosbuild] Building package sbpl
+[rosbuild] Cached build flags older than manifests; calling rospack to get flags
+[rosbuild] Including /opt/ros/electric/stacks/ros_comm/clients/rospy/cmake/rospy.cmake
+[rosbuild] Including /opt/ros/electric/stacks/ros_comm/clients/roslisp/cmake/roslisp.cmake
+[rosbuild] Including /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/cmake/roscpp.cmake
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp: In member function ‘void EnvironmentNAVXYTHETALATTICE::PrecomputeActionswithBaseMotionPrimitive(std::vector<SBPL_xytheta_mprimitive, std::allocator<SBPL_xytheta_mprimitive> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp:867: warning: format ‘%d’ expects type ‘int’, but argument 9 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/nav2d/environment_nav2D.cpp: In member function ‘EnvNAV2DHashEntry_t* EnvironmentNAV2D::GetHashEntry(int, int)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/nav2d/environment_nav2D.cpp:365: warning: format ‘%d’ expects type ‘int’, but argument 11 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp: In member function ‘void EnvironmentNAVXYTHETALATTICE::PrecomputeActionswithCompleteMotionPrimitive(std::vector<SBPL_xytheta_mprimitive, std::allocator<SBPL_xytheta_mprimitive> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp:1003: warning: format ‘%d’ expects type ‘int’, but argument 20 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp:1003: warning: format ‘%d’ expects type ‘int’, but argument 21 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp: In member function ‘void EnvironmentNAVXYTHETALATTICE::InitializeEnvConfig(std::vector<SBPL_xytheta_mprimitive, std::allocator<SBPL_xytheta_mprimitive> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp:1213: warning: format ‘%d’ expects type ‘int’, but argument 8 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp: In member function ‘void EnvironmentNAVXYTHETALATTICE_AD::PrecomputeActionswithBaseMotionPrimitive(std::vector<SBPL_xytheta_mprimitive, std::allocator<SBPL_xytheta_mprimitive> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp:867: warning: format ‘%d’ expects type ‘int’, but argument 9 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp: In member function ‘void EnvironmentNAVXYTHETALATTICE_AD::PrecomputeActionswithCompleteMotionPrimitive(std::vector<SBPL_xytheta_mprimitive, std::allocator<SBPL_xytheta_mprimitive> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp:1003: warning: format ‘%d’ expects type ‘int’, but argument 20 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp:1003: warning: format ‘%d’ expects type ‘int’, but argument 21 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp: In member function ‘void EnvironmentNAVXYTHETALATTICE_AD::InitializeEnvConfig(std::vector<SBPL_xytheta_mprimitive, std::allocator<SBPL_xytheta_mprimitive> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp:1213: warning: format ‘%d’ expects type ‘int’, but argument 8 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp: In member function ‘void EnvironmentNAVXYTHETALAT::ConvertStateIDPathintoXYThetaPath(std::vector<int, std::allocator<int> >*, std::vector<sbpl_xy_theta_pt_t, std::allocator<sbpl_xy_theta_pt_t> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp:2094: warning: format ‘%d’ expects type ‘int’, but argument 14 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp: In member function ‘EnvNAVXYTHETALATHashEntry_t* EnvironmentNAVXYTHETALAT::GetHashEntry_hash(int, int, int)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat.cpp:2298: warning: format ‘%d’ expects type ‘int’, but argument 11 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp: In member function ‘void EnvironmentNAVXYTHETALAT_AD::ConvertStateIDPathintoXYThetaPath(std::vector<int, std::allocator<int> >*, std::vector<sbpl_xy_theta_pt_t, std::allocator<sbpl_xy_theta_pt_t> >*)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp:2099: warning: format ‘%d’ expects type ‘int’, but argument 14 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp: In member function ‘EnvNAVXYTHETALATHashEntry_t* EnvironmentNAVXYTHETALAT_AD::GetHashEntry_hash(int, int, int)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/navxythetalat/environment_navxythetalat_adaptive.cpp:2303: warning: format ‘%d’ expects type ‘int’, but argument 11 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/template/environment_XXX.cpp: In member function ‘EnvXXXHashEntry_t* EnvironmentXXX::GetHashEntry(unsigned int, unsigned int, unsigned int, unsigned int)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/template/environment_XXX.cpp:121: warning: format ‘%d’ expects type ‘int’, but argument 13 has type ‘size_t’
+/home/kalin/ros/sbpl/src/discrete_space_information/robarm/environment_robarm.cpp: In member function ‘EnvROBARMHashEntry_t* EnvironmentROBARM::GetHashEntry(short unsigned int*, int, bool)’:
+/home/kalin/ros/sbpl/src/discrete_space_information/robarm/environment_robarm.cpp:129: warning: format ‘%d’ expects type ‘int’, but argument 10 has type ‘size_t’
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp: In member function ‘bool ARAPlanner::inHeap(int)’:
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp:929: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp:930: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp: In member function ‘ARAState* ARAPlanner::getMaxGFromHeap(int, AdaptiveDiscreteSpaceInformation*)’:
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp:944: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp: In member function ‘void ARAPlanner::fixHeap(std::vector<int, std::allocator<int> >*, AdaptiveDiscreteSpaceInformation*)’:
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp:1010: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/ARAStar/araplanner.cpp:1014: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp: In member function ‘bool PARAPlanner::inHeap(int)’:
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp:826: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp: In member function ‘void PARAPlanner::fixHeap(std::vector<int, std::allocator<int> >*, AdaptiveDiscreteSpaceInformation*)’:
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp:901: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp:906: warning: comparison of unsigned expression < 0 is always false
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp:916: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp: In member function ‘void PARAPlanner::rollbackHeap(std::vector<int, std::allocator<int> >*, AdaptiveDiscreteSpaceInformation*)’:
+/home/kalin/ros/sbpl/src/planners/PARAStar/paraplanner.cpp:998: warning: unused variable ‘fixed’
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp: In member function ‘int ADPlanner::ComputePath(ADSearchStateSpace_t*, double)’:
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp:615: warning: unused variable ‘last_exp_under’
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp: In member function ‘void ADPlanner::removeFromHeap(std::vector<int, std::allocator<int> >*)’:
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp:1636: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp:1640: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 8 has type ‘int’
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp: In member function ‘void ADPlanner::getInconsListStates(std::vector<int, std::allocator<int> >*)’:
+/home/kalin/ros/sbpl/src/planners/ADStar/adplanner.cpp:1655: warning: format ‘%d’ expects type ‘int’, but argument 8 has type ‘size_t’
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp: In member function ‘bool ARAPlanner_AD::fixParents(ARAState*, int)’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:971: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp: In member function ‘void ARAPlanner_AD::fixHeap(std::vector<int, std::allocator<int> >*, AdaptiveDiscreteSpaceInformation*)’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:999: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:1012: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:1037: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:1095: warning: comparison between signed and unsigned integer expressions
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp: In member function ‘bool ARAPlanner_AD::Search(ARASearchStateSpace_t*, std::vector<int, std::allocator<int> >&, int&, bool, bool, double)’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:1241: warning: unknown conversion type character ‘b’ in format
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/araplanner_ad.cpp:1241: warning: too many arguments for format
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp: In member function ‘int AdaptivePlanner::dynamically_replan(double, void (*)(std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >*, void*), void*)’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:390: warning: unused variable ‘log’
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp: In member function ‘virtual int AdaptivePlanner::replan(double, std::vector<int, std::allocator<int> >*, int*)’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:774: warning: unused variable ‘iter_start’
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:688: warning: unused variable ‘executable_pieceV’
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:707: warning: unused variable ‘bforwardsearch’
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:741: warning: unused variable ‘horizon’
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp: In member function ‘virtual int AdaptivePlanner::force_planning_from_scratch()’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:983: warning: no return statement in function returning non-void
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp: In member function ‘int AdaptivePlanner::dynamically_replan(double, void (*)(std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >*, void*), void*)’:
+/home/kalin/ros/sbpl/src/planners/AdaptivePlanner/adaptive_planner.cpp:338: warning: ‘tracking_bRet’ may be used uninitialized in this function
+/home/kalin/ros/sbpl/src/utils/2Dgridsearch.cpp: In member function ‘bool SBPL2DGridSearch::search_withslidingbuckets(unsigned char**, unsigned char, int, int, int, int, SBPL_2DGRIDSEARCH_TERM_CONDITION)’:
+/home/kalin/ros/sbpl/src/utils/2Dgridsearch.cpp:662: warning: unused variable ‘f2Dsearch’
